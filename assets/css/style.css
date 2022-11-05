@@ -221,8 +221,56 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/Background/blue-lamborghini-huracan-4k-b4.jpg") top center;
+  background: url("../img/Background/pro/main.webp") top center;
   background-size: cover;
+  animation: change 40s infinite ease-in-out;
+}
+
+@keyframes change{
+  0%
+  {
+    background-image: url(../img/Background/pro/12.jpg);
+  }
+  10%
+  {
+    background-image: url(../img/Background/pro/other/insta.jpg);
+  }
+  20%
+  {
+    background-image: url(../img/Background/pro/other/meta.jpg);
+  }
+  30%
+  {
+    background-image: url(../img/Background/pro/other/sms.jpg);
+  }
+  40%
+  {
+    background-image: url(../img/Background/pro/other/snap.jpg);
+  }
+  50%
+  {
+    background-image: url(../img/Background/pro/other/telegram.jpg);
+  }
+  60%
+  {
+    background-image: url(../img/Background/pro/other/tiktok.jpg);
+  }
+  70%
+  {
+    background-image: url(../img/Background/pro/other/twitter.jpg);
+  }
+  80%
+  {
+    background-image: url(../img/Background/pro/other/yt.jpg);
+  }
+  90%
+  {
+    background-image: url(../img/Background/pro/other/iphone.jpg);
+  }
+  100%
+  {
+    background-image: url(../img/Background/pro/other/some\ socials.jpg);
+  }
 }
 
 #hero:before {
